@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Website</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -14,7 +16,7 @@
     <section>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">IMDb</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,105 +65,256 @@
             <span class="white"> By viewing content on IMDb TV, you agree to the IMDb Conditions of Use </span>
           </section>
           <section class="container mt-4">
-          <span class="marginleft"> <span class="white"> Recently added movies </span> </span>
+          <span class="text-left"> <span class="white"> Recently added movies </span> </span>
           </section>
 
           <section class="container">
-              <div class="row">
-               <div class="col-md-1"></div>
-                 <div class="col-md-2">
-                  <button id="btn1" onclick="openNewWindow(event,'Hollywood.html')"><img src="images/d1.jpg" alt=""></button>
-                 </div>
-                  <div class="col-md-2">
-                 <button id="btn2"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d13.jpg" alt=""></button> 
-                  </div>
-                  <div class="col-md-2">
-                  <button id="btn3" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d3.jpg" alt=""></button>
-                  </div>
-                  <div class="col-md-2">
-                  <button id="btn4" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d4.jpg" alt=""></button> 
-                  </div>
-                 <div class="col-md-2">
-                 <button id="btn5" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d16.jpg" alt=""></button> 
-                 </div>
-                 <div class="col-md-1"></div>
-             </div>
+               <div class="row slider">
+                          <div class="col-md-12 content-img" >
+                            <button id="btn1" onclick="openNewWindow(event,'BeautyNbeast.html')"><img class="img-fluid" src="images/d1.jpg" alt=""></button>
+                           </div>
+                            <div class="col-md-12 content-img">
+                           <button id="btn2"onclick="openNewWindow(event, 'perfume.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
+                            </div>
+                            <div class="col-md-12 content-img">
+                            <button id="btn3" onclick="openNewWindow(event, 'Archer.html')"><img class="img-fluid" src="images/d3.jpg" alt=""></button>
+                            </div>
+                            <div class="col-md-12 content-img">
+                            <button id="btn4" onclick="openNewWindow(event, 'inception.html')"><img class="img-fluid" src="images/d4.jpg" alt=""></button> 
+                            </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn5" onclick="openNewWindow(event, 'Rickdavidson.html')"><img class="img-fluid" src="images/d16.jpg" alt=""></button> 
+                           </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn6" onclick="openNewWindow(event, 'strange2.html')"><img class="img-fluid" src="images/d11.jpg" alt=""></button> 
+                           </div>
+                        
+                        <div class="col-md-12 content-img">
+                          <button id="btn6"onclick="openNewWindow(event, 'bright.html')"><img class="img-fluid" src="images/d6.jpg" alt=""></button> 
+                         </div>
+                          <div class="col-md-12 content-img">
+                          <button id="btn7"onclick="openNewWindow(event, 'ferf.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
+                          </div>
+                          <div class="col-md-12 content-img">
+                          <button id="btn8"onclick="openNewWindow(event, 'ferf2.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
+                          </div>
+                          <div class="col-md-12 content-img">
+                          <button id="btn9"onclick="openNewWindow(event, 'klanson.html')"><img class="img-fluid" src="images/d9.jpg" alt=""></button> 
+                          </div>
+                         <div class="col-md-12 content-img">
+                          <button id="btn10"onclick="openNewWindow(event, 'Astronaut.html')"><img class="img-fluid" src="images/d10.jpg" alt=""></button> 
+                         </div>
+                         <div class="col-md-12 content-img">
+                          <button id="btn10"onclick="openNewWindow(event, 'Redchoir.html')"><img class="img-fluid" src="images/d2.jpg" alt=""></button> 
+                         </div>
+                         <div class="col-md-12 content-img">
+                           <button id="btn11" onclick="openNewWindow(event, 'stranger.html')"><img class="img-fluid" src="images/d11.jpg" alt=""></button>
+                          </div>
+                           <div class="col-md-12 content-img">
+                            <button id="btn12" onclick="openNewWindow(event, 'Enemy.html')"><img class="img-fluid" src="images/d12.jpg" alt=""></button>
+                           </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn13" onclick="openNewWindow(event, 'perf2.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
+                           </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn14" onclick="openNewWindow(event, 'Blackpanther.html')"><img class="img-fluid" src="images/d14.jpg" alt=""></button> 
+                           </div>
+                         <div class="col-md-12 content-img">
+                          <button id="btn15" onclick="openNewWindow(event, 'rick2.html')"><img class="img-fluid" src="images/d16.jpg" alt=""></button> 
+                         </div>
+                         <div class="col-md-12 content-img">
+                          <button id="btn15" onclick="openNewWindow(event, 'outcall.html')"><img class="img-fluid" src="images/d4.jpg" alt=""></button> 
+                         </div>
+                         <div class="col-md-12 content-img">
+                           <button id="btn16" onclick="openNewWindow(event, 'Exorcist.html')"><img class="img-fluid" src="images/d15.jpg" alt=""></button> 
+                          </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn17" onclick="openNewWindow(event, 'klans2.html')"><img class="img-fluid" src="images/d9.jpg" alt=""></button> 
+                           </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn18" onclick="openNewWindow(event, 'incep2.html')"><img class="img-fluid" src="images/d4.jpg" alt=""></button> 
+                           </div>
+                           <div class="col-md-12 content-img">
+                           <button id="btn19" onclick="openNewWindow(event, 'bright2.html')"><img class="img-fluid" src="images/d6.jpg" alt=""></button> 
+                           </div>
+                          <div class="col-md-12 content-img">
+                           <button id="btn20" onclick="openNewWindow(event, 'arch2.html')"><img class="img-fluid" src="images/d3.jpg" alt=""></button>
+                          </div>
+                          <div class="col-md-12 content-img">
+                           <button id="btn20" onclick="openNewWindow(event, 'astro2.html')"><img class="img-fluid" src="images/d10.jpg" alt=""></button>
+                          </div>
+                      </div>
+                 <!-- <div class="col-md-1"></div> -->
           </section>
           <section class="container mt-4">
-           <span class="marginleft">  <span class="white"> Recently added Tv </span> </span>
+           <span class="text-left">  <span class="white"> Recently added Tv </span> </span>
           </section>
 
           <section class="container">
-           <div class="row">
-               <div class="col-md-1"></div>
-              <div class="col-md-2">
-               <button id="btn6"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d6.jpg" alt=""></button> 
+           <div class="row slider">
+               <!-- <div class="col-md-1"></div> -->
+               
+              <div class="col-md-12 content-img">
+               <button id="btn6"onclick="openNewWindow(event, 'bright.html')"><img class="img-fluid" src="images/d6.jpg" alt=""></button> 
               </div>
-               <div class="col-md-2">
-               <button id="btn7"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d17.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn7"onclick="openNewWindow(event, 'ferf.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
                </div>
-               <div class="col-md-2">
-               <button id="btn8"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d8.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn8"onclick="openNewWindow(event, 'ferf2.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
                </div>
-               <div class="col-md-2">
-               <button id="btn9"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d9.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn9"onclick="openNewWindow(event, 'klanson.html')"><img class="img-fluid" src="images/d9.jpg" alt=""></button> 
                </div>
-              <div class="col-md-2">
-               <button id="btn10"onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d10.jpg" alt=""></button> 
+              <div class="col-md-12 content-img">
+               <button id="btn10"onclick="openNewWindow(event, 'Astronaut.html')"><img class="img-fluid" src="images/d10.jpg" alt=""></button> 
               </div>
-              <div class="col-md-1"></div>
+              <div class="col-md-12 content-img">
+               <button id="btn10"onclick="openNewWindow(event, 'Redchoir.html')"><img class="img-fluid" src="images/d2.jpg" alt=""></button> 
+              </div>
+              <div class="col-md-12 content-img">
+                <button id="btn11" onclick="openNewWindow(event, 'stranger.html')"><img class="img-fluid" src="images/d11.jpg" alt=""></button>
+               </div>
+                <div class="col-md-12 content-img">
+                 <button id="btn12" onclick="openNewWindow(event, 'Enemy.html')"><img class="img-fluid" src="images/d12.jpg" alt=""></button>
+                </div>
+              <!-- <div class="col-md-1"></div> -->
           </div>
        </section>
 
-       <section class="container mt-4">
-           <span class="marginleft">  <span class="white"> Recently added movies </span> </span>
+       <section class="container mt-4 mb-3">
+           <span class="text-left">  <span class="white"> Recently added movies </span> </span>
           </section>
           <section class="container">
-              <div class="row">
-               <div class="col-md-1"></div>
-                 <div class="col-md-2">
-                  <button id="btn11" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d11.jpg" alt=""></button>
+              <div class="row slider">
+               <!-- <div class="col-md-1"></div> -->
+                 <div class="col-md-12 content-img">
+                  <button id="btn11" onclick="openNewWindow(event, 'stranger.html')"><img class="img-fluid" src="images/d11.jpg" alt=""></button>
                  </div>
-                  <div class="col-md-2">
-                   <button id="btn12" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d12.jpg" alt=""></button>
+                  <div class="col-md-12 content-img">
+                   <button id="btn12" onclick="openNewWindow(event, 'Enemy.html')"><img class="img-fluid" src="images/d12.jpg" alt=""></button>
                   </div>
-                  <div class="col-md-2">
-                  <button id="btn13" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d13.jpg" alt=""></button> 
+                  <div class="col-md-12 content-img">
+                  <button id="btn13" onclick="openNewWindow(event, 'perf2.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
                   </div>
-                  <div class="col-md-2">
-                  <button id="btn14" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d14.jpg" alt=""></button> 
+                  <div class="col-md-12 content-img">
+                  <button id="btn14" onclick="openNewWindow(event, 'Blackpanther.html')"><img class="img-fluid" src="images/d14.jpg" alt=""></button> 
                   </div>
-                 <div class="col-md-2">
-                  <button id="btn15" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d16.jpg" alt=""></button> 
+                 <div class="col-md-12 content-img">
+                  <button id="btn15" onclick="openNewWindow(event, 'rick2.html')"><img class="img-fluid" src="images/d16.jpg" alt=""></button> 
                  </div>
-                 <div class="col-md-1"></div>
+                 <div class="col-md-12 content-img">
+                  <button id="btn15" onclick="openNewWindow(event, 'outcall.html')"><img class="img-fluid" src="images/d4.jpg" alt=""></button> 
+                 </div>
+                 <div class="col-md-12 content-img">
+                  <button id="btn6"onclick="openNewWindow(event, 'bright.html')"><img class="img-fluid" src="images/d6.jpg" alt=""></button> 
+                 </div>
+                  <div class="col-md-12 content-img">
+                  <button id="btn7"onclick="openNewWindow(event, 'ferf.html')"><img class="img-fluid" src="images/d13.jpg" alt=""></button> 
+                  </div>
+                 <!-- <div class="col-md-1"></div> -->
              </div>
           </section>
     
        <section class="container mt-4">
-           <span class="marginleft">   <span class="white"> Most popular movies </span> </span>
+           <span class="text-left">   <span class="white"> Most popular movies </span> </span>
           </section>
           <section class="container">
-           <div class="row">
-               <div class="col-md-1"></div>
-              <div class="col-md-2">
-               <button id="btn16" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/s1.jpg" alt=""></button> 
+           <div class="row slider">
+               <!-- <div class="col-md-1"></div> -->
+              <div class="col-md-12 content-img">
+               <button id="btn16" onclick="openNewWindow(event, 'Exorcist.html')"><img class="img-fluid" src="images/d15.jpg" alt=""></button> 
               </div>
-               <div class="col-md-2">
-               <button id="btn17" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d9.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn17" onclick="openNewWindow(event, 'klans2.html')"><img class="img-fluid" src="images/d9.jpg" alt=""></button> 
                </div>
-               <div class="col-md-2">
-               <button id="btn18" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d4.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn18" onclick="openNewWindow(event, 'incep2.html')"><img class="img-fluid" src="images/d4.jpg" alt=""></button> 
                </div>
-               <div class="col-md-2">
-               <button id="btn19" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d6.jpg" alt=""></button> 
+               <div class="col-md-12 content-img">
+               <button id="btn19" onclick="openNewWindow(event, 'bright2.html')"><img class="img-fluid" src="images/d6.jpg" alt=""></button> 
                </div>
-              <div class="col-md-2">
-               <button id="btn20" onclick="openNewWindow(event, 'Hollywood.html')"><img src="images/d3.jpg" alt=""></button>
+              <div class="col-md-12 content-img">
+               <button id="btn20" onclick="openNewWindow(event, 'arch2.html')"><img class="img-fluid" src="images/d3.jpg" alt=""></button>
               </div>
-              <div class="col-md-1"></div>
+              <div class="col-md-12 content-img">
+               <button id="btn20" onclick="openNewWindow(event, 'astro2.html')"><img class="img-fluid" src="images/d10.jpg" alt=""></button>
+              </div>
+              <div class="col-md-12 content-img">
+                <button id="btn14" onclick="openNewWindow(event, 'Blackpanther.html')"><img class="img-fluid" src="images/d14.jpg" alt=""></button> 
+                </div>
+               <div class="col-md-12 content-img">
+                <button id="btn15" onclick="openNewWindow(event, 'rick2.html')"><img class="img-fluid" src="images/d16.jpg" alt=""></button> 
+               </div>
+              <!-- <div class="col-md-1"></div> -->
           </div>
        </section>
+
+
+       <section class="container">
+         <div class="row">
+           <div class="col-md-3"></div>
+           <div class="col-md-6 col-sm-12 mt-5">
+            <h4 class="atm-details">To watch a movie, please input your credit card details</h4>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">User Name</label>
+                <input type="text" class="form-control" id="exampleInputtext" aria-describedby="textHelp">
+                <small id="textHelp" class="form-text ">We'll never share your informations with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+           </div>
+           <div class="col-md-3"></div>
+         </div>
+        
+      </section>
+  
+  
+  
+  
+      <section class="container antiquewhite mt-4">
+      <footer>
+         More to watch:
+       <h6>IMDb helps you select the perfect next show or movie to watch:</h6>
+       EMAIL:
+ 
+   <form>
+     <div class="form-row">
+       <div class="form-group col-md-6">
+         <label for="inputEmail4">Watch Guide</label>
+         <input type="email" class="form-control" id="inputEmail4">
+       </div>
+       <div class="form-group col-md-6">
+         <label for="inputPassword4">Most Popular</label>
+         <input type="password" class="form-control" id="inputPassword4">
+       </div>
+     </div>
+     </form>
+     <h4>
+       IMBd copyright 2020 &copy; All rights reserved
+     </h4>
+   
+   
+   </footer>
+   
+ </section>
+ 
+   </section>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<!-- <script type="text/javascript"> -->
+
+
+   <script src="js/app.js"></script>
+</body>
+</html>
+  
+  
        
    
    
@@ -169,41 +322,3 @@
    
    
    
-
-       <section class="container antiquewhite mt-4">
-       <footer>
-          More to watch:
-        <h6>IMDb helps you select the perfect next show or movie to watch:</h6>
-        EMAIL:
-   
-   
-
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">Watch Guide</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Most Popular</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-      </div>
-      </form>
-      <h4>
-        IMBd copyright 2020 &copy; All rights reserved
-      </h4>
-    
-    
-    </footer>
-    
-  </section>
-  
-  
-
-
-
-    </section>
-    <script src="app.js"></script>
-</body>
-</html>

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+*{
+    box-sizing:border-box;
+}
+
 .black{
     background-color: black;
 }
@@ -25,6 +29,98 @@
     background-image: url(../images/ff.jpg);
      background-size: cover;
 }
+
+
+.bbb-nav{
+    background-image: url(../images/d1.jpg);
+}
+
+.ppp-nav {
+    background-image:url(../images/d13.jpg);
+}
+
+.aaa-nav{
+    background-image: url(../images/d3.jpg);
+}
+
+.ccc-nav{
+    background-image: url(../images/d4.jpg);
+}
+.rrr-nav{
+    background-image: url(../images/d16.jpg);
+}
+.ggg-nav{
+    background-image: url(../images/d6.jpg);
+}
+.lll-nav{
+    background-image: url(../images/d13.jpg);
+}
+.mmm-nav{
+    background-image: url(../images/d13.jpg);
+}
+.kkk-nav{
+    background-image: url(../images/d9.jpg);
+}
+.ttt-nav{
+    background-image: url(../images/d10.jpg);
+}
+.sss-nav{
+    background-image: url(../images/d11.jpg);
+}
+.eee-nav{
+    background-image: url(../images/d12.jpg);
+}
+.p2-nav{
+    background-image: url(../images/d13.jpg);
+}
+.nnn-nav{
+    background-image: url(../images/d14.jpg);
+}
+.iii-nav{
+    background-image: url(../images/d13.jpg);
+}
+.ooo-nav{
+    background-image: url(../images/d15.jpg);
+}
+.d9-nav{
+    background-image: url(../images/d9.jpg);
+}
+.in-nav{
+    background-image: url(../images/d4.jpg);
+}
+.d6-nav{
+    background-image: url(../images/d6.jpg);
+}
+.a2-nav{
+    background-image: url(../images/d3.jpg);
+}
+.s2-nav{
+    background-image: url(../images/d11.jpg);
+}
+.cd-nav{
+    background-image: url(../images/d2.jpg);
+}
+.all-nav{
+    background-image: url(../images/d4.jpg);
+}
+.d10-nav{
+    background-image: url(../images/d10.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .red{
     color:red;
 }
@@ -57,4 +153,50 @@ h4 {
 h2{
     color:burlywood;
     text-align: center;
+}
+
+.slider{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.slick-dots, .slick-dotted.slick-slider{
+    margin-bottom:0;
+}
+
+.slick-dots{
+    display:none;
+}
+/* .slider li.slide, .slider1 li.slide1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style-type: none;
+    padding-top: 6%;
+} */
+/* .slider li.slide.active, .slider1 li.slide1.active{
+    opacity: 1;
+    transform:translateX(0);
+} */
+
+/* .slider .content, .slider1 .content1{
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+} */
+
+.slider .content-img{
+    /* padding:0; */
 }
